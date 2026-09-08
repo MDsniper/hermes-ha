@@ -6,4 +6,4 @@ COPY memory-export.md /root/.hermes/MIGRATION.md
 WORKDIR /root/.hermes
 ENV HERMES_HOME=/root/.hermes
 EXPOSE 8377
-CMD ["hermes", "gateway", "start"]
+CMD ["hermes", "gateway", "run"]
