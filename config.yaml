@@ -1,0 +1,6 @@
+gateway:
+  port: 8378
+  bind: 0.0.0.0
+  allow_all_users: true
+  dm_policy: open
+  group_policy: open
