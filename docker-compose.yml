@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8377:8377"
+    environment:
+      - TELEGRAM_BOT_TOKEN=8558350804:AAHR8EiXr9jbfCzgnxSHmDW2yFjzTUprjRk
+      - TELEGRAM_ALLOWED_USERS=7853534873
+      - GATEWAY_DM_POLICY=open
+    restart: unless-stopped
